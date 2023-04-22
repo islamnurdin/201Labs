@@ -1,0 +1,947 @@
+(kicad_pcb (version 20221018) (generator pcbnew)
+
+  (general
+    (thickness 1.6)
+  )
+
+  (paper "A4")
+  (layers
+    (0 "F.Cu" signal)
+    (31 "B.Cu" signal)
+    (32 "B.Adhes" user "B.Adhesive")
+    (33 "F.Adhes" user "F.Adhesive")
+    (34 "B.Paste" user)
+    (35 "F.Paste" user)
+    (36 "B.SilkS" user "B.Silkscreen")
+    (37 "F.SilkS" user "F.Silkscreen")
+    (38 "B.Mask" user)
+    (39 "F.Mask" user)
+    (40 "Dwgs.User" user "User.Drawings")
+    (41 "Cmts.User" user "User.Comments")
+    (42 "Eco1.User" user "User.Eco1")
+    (43 "Eco2.User" user "User.Eco2")
+    (44 "Edge.Cuts" user)
+    (45 "Margin" user)
+    (46 "B.CrtYd" user "B.Courtyard")
+    (47 "F.CrtYd" user "F.Courtyard")
+    (48 "B.Fab" user)
+    (49 "F.Fab" user)
+    (50 "User.1" user)
+    (51 "User.2" user)
+    (52 "User.3" user)
+    (53 "User.4" user)
+    (54 "User.5" user)
+    (55 "User.6" user)
+    (56 "User.7" user)
+    (57 "User.8" user)
+    (58 "User.9" user)
+  )
+
+  (setup
+    (pad_to_mask_clearance 0)
+    (pcbplotparams
+      (layerselection 0x00010fc_ffffffff)
+      (plot_on_all_layers_selection 0x0000000_00000000)
+      (disableapertmacros false)
+      (usegerberextensions false)
+      (usegerberattributes true)
+      (usegerberadvancedattributes true)
+      (creategerberjobfile true)
+      (dashed_line_dash_ratio 12.000000)
+      (dashed_line_gap_ratio 3.000000)
+      (svgprecision 4)
+      (plotframeref false)
+      (viasonmask false)
+      (mode 1)
+      (useauxorigin false)
+      (hpglpennumber 1)
+      (hpglpenspeed 20)
+      (hpglpendiameter 15.000000)
+      (dxfpolygonmode true)
+      (dxfimperialunits true)
+      (dxfusepcbnewfont true)
+      (psnegative false)
+      (psa4output false)
+      (plotreference true)
+      (plotvalue true)
+      (plotinvisibletext false)
+      (sketchpadsonfab false)
+      (subtractmaskfromsilk false)
+      (outputformat 1)
+      (mirror false)
+      (drillshape 0)
+      (scaleselection 1)
+      (outputdirectory "/Users/macbookpro/Desktop/201Labs/Lab3/")
+    )
+  )
+
+  (net 0 "")
+
+  (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (layer "F.Cu")
+    (tstamp 0237389f-b794-4f72-b1e8-fca43c22e83d)
+    (at 116.831192 74.261192 90)
+    (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+    (tags "resistor handsolder")
+    (property "Sheetfile" "exercise 4-2.kicad_sch")
+    (property "Sheetname" "")
+    (attr smd)
+    (fp_text reference "R2" (at 0 -1.65 90) (layer "F.SilkS")
+        (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp f6e806a7-45bb-4c82-9aaf-e2862e8917f5)
+    )
+    (fp_text value "10k" (at 0 1.65 90) (layer "F.Fab")
+        (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp f1e2a4af-30da-4b15-b438-d895c8b05e3b)
+    )
+    (fp_text user "${REFERENCE}" (at 0 0 90) (layer "F.Fab")
+        (effects (font (size 0.5 0.5) (thickness 0.08)))
+      (tstamp 9222aefe-dfd0-41a7-991a-2e1e17365b7a)
+    )
+    (fp_line (start -0.227064 -0.735) (end 0.227064 -0.735)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 56b5d7f8-ffbc-41b3-8d51-f8e95ebcb67d))
+    (fp_line (start -0.227064 0.735) (end 0.227064 0.735)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp e6df6adc-dc46-4755-bffa-93cf023f511e))
+    (fp_line (start -1.85 -0.95) (end 1.85 -0.95)
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp a326f4ea-4f0b-4853-ac26-524a20f7f6fa))
+    (fp_line (start -1.85 0.95) (end -1.85 -0.95)
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp bf42e6b3-eb52-429a-9ab9-98f75ab37e90))
+    (fp_line (start 1.85 -0.95) (end 1.85 0.95)
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 416a7d8d-9be8-43f1-9b35-55bfa0a58608))
+    (fp_line (start 1.85 0.95) (end -1.85 0.95)
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp dedd3948-4991-40c2-8226-612722dceaa1))
+    (fp_line (start -1 -0.625) (end 1 -0.625)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp d5701550-60e0-45f1-9f66-c8a0ef13fc12))
+    (fp_line (start -1 0.625) (end -1 -0.625)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp d46a55a2-af07-4817-9b4f-df2aeab6a8c5))
+    (fp_line (start 1 -0.625) (end 1 0.625)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 58ed5786-6361-4aad-a1ed-e847c6dc71e2))
+    (fp_line (start 1 0.625) (end -1 0.625)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 8c2607aa-8f7f-4261-8bd2-c8abec211b59))
+    (pad "1" smd roundrect (at -1 0 90) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2083333333)
+      (pintype "passive") (tstamp d06700e0-39b0-40b5-8a6f-c82217fbf803))
+    (pad "2" smd roundrect (at 1 0 90) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2083333333)
+      (pintype "passive") (tstamp 240b7154-85e1-42b6-8675-faac530abaab))
+    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (footprint "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm" (layer "F.Cu")
+    (tstamp 251d16f8-1349-42ac-afab-cdd658639d87)
+    (at 123.5425 76.2 180)
+    (descr "SOIC, 8 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/ada4898-1_4898-2.pdf#page=29), generated with kicad-footprint-generator ipc_gullwing_generator.py")
+    (tags "SOIC SO")
+    (property "Sheetfile" "exercise 4-2.kicad_sch")
+    (property "Sheetname" "")
+    (attr smd)
+    (fp_text reference "U1" (at 0 -3.4) (layer "F.SilkS")
+        (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp e5b151ef-080c-409e-9abc-07698c030571)
+    )
+    (fp_text value "NE555D" (at 0 3.4) (layer "F.Fab")
+        (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 0ad198b0-cab0-44cc-806a-c267e8636f5d)
+    )
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+        (effects (font (size 0.98 0.98) (thickness 0.15)))
+      (tstamp b59fb79f-632a-4131-acfd-7960756968e8)
+    )
+    (fp_line (start 0 -2.56) (end -3.45 -2.56)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 777cfd50-0d8a-4f75-a9c5-de51ec062e16))
+    (fp_line (start 0 -2.56) (end 1.95 -2.56)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 32cd0c4a-4401-4ddb-9548-7b5338bb8f2f))
+    (fp_line (start 0 2.56) (end -1.95 2.56)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 4c4e7e20-ca2a-4e6c-b491-9f8655d8501c))
+    (fp_line (start 0 2.56) (end 1.95 2.56)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 45dfdf43-a650-453a-a7f3-e08796186d57))
+    (fp_line (start -3.7 -2.7) (end -3.7 2.7)
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 1f7a3243-9301-45d2-a0be-65ee384671ed))
+    (fp_line (start -3.7 2.7) (end 3.7 2.7)
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 791a634f-2004-440e-9ef0-e99afe9ddd22))
+    (fp_line (start 3.7 -2.7) (end -3.7 -2.7)
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 4240d2ff-e3d0-47d9-b39d-c9503ccc923f))
+    (fp_line (start 3.7 2.7) (end 3.7 -2.7)
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 5a3b9d02-9bb9-455c-868b-7b21c304d482))
+    (fp_line (start -1.95 -1.475) (end -0.975 -2.45)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp a459906e-d187-42f2-a044-306f07762082))
+    (fp_line (start -1.95 2.45) (end -1.95 -1.475)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 49578d0d-b43f-4d5b-8113-63f11c588d21))
+    (fp_line (start -0.975 -2.45) (end 1.95 -2.45)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 434cfdb7-0596-42ad-9478-a36a8ea77588))
+    (fp_line (start 1.95 -2.45) (end 1.95 2.45)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp ef41b5d2-97b6-4db1-b71c-0a7266b7787d))
+    (fp_line (start 1.95 2.45) (end -1.95 2.45)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp ed09dec0-e97b-4a39-80f9-1bfdd6fbe490))
+    (pad "" smd roundrect (at -0.57 -0.75 180) (size 0.92 1.21) (layers "F.Paste") (roundrect_rratio 0.25) (tstamp a99e3ac0-d10f-45eb-877c-77eebdb3d85c))
+    (pad "" smd roundrect (at -0.57 0.75 180) (size 0.92 1.21) (layers "F.Paste") (roundrect_rratio 0.25) (tstamp a9b37527-25bd-4d27-9805-ca6316b7902f))
+    (pad "" smd roundrect (at 0.57 -0.75 180) (size 0.92 1.21) (layers "F.Paste") (roundrect_rratio 0.25) (tstamp 86056d83-e759-417c-9720-03316ab85449))
+    (pad "" smd roundrect (at 0.57 0.75 180) (size 0.92 1.21) (layers "F.Paste") (roundrect_rratio 0.25) (tstamp 377d3e59-69f9-45c2-823c-6b12d6f192ad))
+    (pad "1" smd roundrect (at -2.475 -1.905 180) (size 1.95 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+      (pinfunction "GND") (pintype "power_in") (tstamp 9e3e3720-59b5-403b-8095-1a8dc27d2b98))
+    (pad "2" smd roundrect (at -2.475 -0.635 180) (size 1.95 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+      (pinfunction "TR") (pintype "input") (tstamp 6f4e0535-4f5a-4a79-ae84-24e7e24b616a))
+    (pad "3" smd roundrect (at -2.475 0.635 180) (size 1.95 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+      (pinfunction "Q") (pintype "output") (tstamp c7616178-a95e-4792-bbbe-a3a69411c323))
+    (pad "4" smd roundrect (at -2.475 1.905 180) (size 1.95 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+      (pinfunction "R") (pintype "input") (tstamp a50b4d86-7119-45b4-89c1-0b4766583e5a))
+    (pad "5" smd roundrect (at 2.475 1.905 180) (size 1.95 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+      (pinfunction "CV") (pintype "input") (tstamp 6435cec3-e9da-41d6-8fbb-f1ffd97e997d))
+    (pad "6" smd roundrect (at 2.475 0.635 180) (size 1.95 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+      (pinfunction "THR") (pintype "input") (tstamp 6beb03e6-18f1-45c3-9f2e-788ee7ebc930))
+    (pad "7" smd roundrect (at 2.475 -0.635 180) (size 1.95 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+      (pinfunction "DIS") (pintype "input") (tstamp 3b21220a-7b7e-4384-833c-b9c249865c2b))
+    (pad "8" smd roundrect (at 2.475 -1.905 180) (size 1.95 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+      (pinfunction "VCC") (pintype "power_in") (tstamp 5c899e9c-0dcd-4884-beae-2e052d50b3dd))
+    (pad "9" smd rect (at 0 0 180) (size 2.29 3) (layers "F.Cu" "F.Mask") (tstamp 7f2c7ed8-dfe1-488c-ae8e-0ca8efe06d33))
+    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (layer "F.Cu")
+    (tstamp 4b03b106-dc2c-4a5d-8380-8d2ca3a27c8e)
+    (at 125.21374 65.14 180)
+    (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
+    (tags "capacitor handsolder")
+    (property "Sheetfile" "exercise 4-2.kicad_sch")
+    (property "Sheetname" "")
+    (attr smd)
+    (fp_text reference "C2" (at 0 -1.68) (layer "F.SilkS")
+        (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 3cb481cb-dcae-4541-9c24-515466ac6a00)
+    )
+    (fp_text value "0.01uF" (at 0 1.68) (layer "F.Fab")
+        (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 54c39352-0add-4641-b9cc-6e5dc3b634db)
+    )
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+        (effects (font (size 0.5 0.5) (thickness 0.08)))
+      (tstamp babf0736-c8dd-42f0-a6e2-39f9a14d5629)
+    )
+    (fp_line (start -0.261252 -0.735) (end 0.261252 -0.735)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 74d62ecc-f43a-4b7c-8779-9bf872725869))
+    (fp_line (start -0.261252 0.735) (end 0.261252 0.735)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp f2767aa4-68cb-4ba1-8520-aa758c4ec68f))
+    (fp_line (start -1.88 -0.98) (end 1.88 -0.98)
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 86e22a80-3103-41b6-adfc-210469d13453))
+    (fp_line (start -1.88 0.98) (end -1.88 -0.98)
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp b69d7ee6-34a6-4cf5-a1ca-252b4aa16d20))
+    (fp_line (start 1.88 -0.98) (end 1.88 0.98)
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp d7e75375-cdde-4bf9-a098-7c2c29483cc7))
+    (fp_line (start 1.88 0.98) (end -1.88 0.98)
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 63d37470-51a5-4d83-b8aa-48c9e2bd74d3))
+    (fp_line (start -1 -0.625) (end 1 -0.625)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp fd9dbe8e-794b-44bf-9256-6d063ed7ed04))
+    (fp_line (start -1 0.625) (end -1 -0.625)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 59a8e3ef-9ed4-4e2b-8b07-75c4faf9b73c))
+    (fp_line (start 1 -0.625) (end 1 0.625)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 4f8c2731-178c-47ae-b7f4-abaf31988134))
+    (fp_line (start 1 0.625) (end -1 0.625)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 1615be2f-c11a-4e54-8886-4693dd6ac688))
+    (pad "1" smd roundrect (at -1.0375 0 180) (size 1.175 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2127659574)
+      (pintype "passive") (tstamp d61c4ef3-77f2-4dcb-a4f6-1a6893497fc3))
+    (pad "2" smd roundrect (at 1.0375 0 180) (size 1.175 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2127659574)
+      (pintype "passive") (tstamp affcc46e-e2e1-4649-bbf5-e5d0dac4d4a8))
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (footprint "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder" (layer "F.Cu")
+    (tstamp 88e587d2-f0a6-4dbf-a1b0-dd5fb058f058)
+    (at 129.54 69.6825 90)
+    (descr "Tantalum Capacitor SMD Kemet-A (3216-18 Metric), IPC_7351 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator")
+    (tags "capacitor tantalum")
+    (property "Sheetfile" "exercise 4-2.kicad_sch")
+    (property "Sheetname" "")
+    (attr smd)
+    (fp_text reference "C1" (at 0 -1.75 90) (layer "F.SilkS")
+        (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 8cb0809a-c4c9-465e-8edf-87c93547e627)
+    )
+    (fp_text value "10uF" (at 0 1.75 90) (layer "F.Fab")
+        (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 2d265d3e-df31-457a-a14e-dd9db8df25d9)
+    )
+    (fp_text user "${REFERENCE}" (at 0 0 90) (layer "F.Fab")
+        (effects (font (size 0.8 0.8) (thickness 0.12)))
+      (tstamp 0f483edd-875f-4d55-bc4c-c9c4411b572f)
+    )
+    (fp_line (start -2.485 -0.935) (end -2.485 0.935)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 08aa2e44-c79b-42f2-85b6-5cc43f3ff61a))
+    (fp_line (start -2.485 0.935) (end 1.6 0.935)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 723b2af6-6ff0-425e-ada4-fb3eab828bd0))
+    (fp_line (start 1.6 -0.935) (end -2.485 -0.935)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 1fb810c0-fac2-475e-9bc9-841f184b3361))
+    (fp_line (start -2.48 -1.05) (end 2.48 -1.05)
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp a5671b31-7de6-447d-a275-c6989c673de7))
+    (fp_line (start -2.48 1.05) (end -2.48 -1.05)
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp b163345e-5074-4d5a-93c2-ed7eab18488f))
+    (fp_line (start 2.48 -1.05) (end 2.48 1.05)
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 91427e73-55c1-44d5-9b42-3365e09c46d9))
+    (fp_line (start 2.48 1.05) (end -2.48 1.05)
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 8b73fe7c-91a8-4e9f-ad60-bf08e5585e72))
+    (fp_line (start -1.6 -0.4) (end -1.6 0.8)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp f49a3ac4-2ff2-41c0-867a-1ffc69af25bf))
+    (fp_line (start -1.6 0.8) (end 1.6 0.8)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp d24faa28-6360-47d8-9295-b23bfdc05162))
+    (fp_line (start -1.2 -0.8) (end -1.6 -0.4)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp e1e9f838-e08c-4337-a07c-adb4de26fb1d))
+    (fp_line (start 1.6 -0.8) (end -1.2 -0.8)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 0eb9291f-b2c6-49fb-afe9-4de43510ad31))
+    (fp_line (start 1.6 0.8) (end 1.6 -0.8)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 8526f7e3-dbf8-47d8-b27d-d72936465670))
+    (pad "1" smd roundrect (at -1.4375 0 90) (size 1.575 1.35) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1851851852)
+      (pintype "passive") (tstamp 79aabc34-f12b-44f4-95d9-187fae874cc8))
+    (pad "2" smd roundrect (at 1.4375 0 90) (size 1.575 1.35) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1851851852)
+      (pintype "passive") (tstamp a6c0ecbb-a3d3-46df-9591-4b1aef0b8909))
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_Tantalum_SMD.3dshapes/CP_EIA-3216-18_Kemet-A.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (layer "F.Cu")
+    (tstamp 8c33c998-ea90-47e1-97ce-c164f2b5fb71)
+    (at 113.618808 65.045)
+    (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+    (tags "resistor handsolder")
+    (property "Sheetfile" "exercise 4-2.kicad_sch")
+    (property "Sheetname" "")
+    (attr smd)
+    (fp_text reference "R4" (at 0 -1.65) (layer "F.SilkS")
+        (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 8aca230b-aafc-4b24-adb5-c600af86b04f)
+    )
+    (fp_text value "1k" (at 0 1.65) (layer "F.Fab")
+        (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 6a39ff5f-8827-4214-94db-4e9d8ce9a7ef)
+    )
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+        (effects (font (size 0.5 0.5) (thickness 0.08)))
+      (tstamp ced07954-acd7-4865-81ad-20428b7b3a29)
+    )
+    (fp_line (start -0.227064 -0.735) (end 0.227064 -0.735)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp b0be3ba8-19bc-441f-b750-ac3d2169d9ef))
+    (fp_line (start -0.227064 0.735) (end 0.227064 0.735)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 7b38871f-ad01-4052-ba02-34bc73ffc435))
+    (fp_line (start -1.85 -0.95) (end 1.85 -0.95)
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 22f1465d-4623-450d-ac0e-a67615967e1f))
+    (fp_line (start -1.85 0.95) (end -1.85 -0.95)
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 488f8be5-e29a-4945-b5d0-579abd36c9eb))
+    (fp_line (start 1.85 -0.95) (end 1.85 0.95)
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 9670fe0e-125c-478e-b9bc-6d25fa87f4ed))
+    (fp_line (start 1.85 0.95) (end -1.85 0.95)
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 9c0fe9fd-c45e-42b5-b5b4-71e72440d2f3))
+    (fp_line (start -1 -0.625) (end 1 -0.625)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp c3485361-430a-43dc-bdc5-eeed9f94aa6a))
+    (fp_line (start -1 0.625) (end -1 -0.625)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 9e935dcd-9fbc-42dd-9676-e847d1a32a9c))
+    (fp_line (start 1 -0.625) (end 1 0.625)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 511ed907-7feb-4fca-a761-47e50f9db409))
+    (fp_line (start 1 0.625) (end -1 0.625)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp c0b3a059-2192-40ef-a69f-79f07c0c529e))
+    (pad "1" smd roundrect (at -1 0) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2083333333)
+      (pintype "passive") (tstamp 1785cb9f-6ba3-49c9-9b7a-06c6d3cbcba4))
+    (pad "2" smd roundrect (at 1 0) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2083333333)
+      (pintype "passive") (tstamp 44ea9335-d232-4adc-9f85-7dff44407cfb))
+    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (layer "F.Cu")
+    (tstamp 9f01d6f3-b802-457d-b17a-483bcc8f4339)
+    (at 134.62 83.82 180)
+    (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+    (tags "resistor handsolder")
+    (property "Sheetfile" "exercise 4-2.kicad_sch")
+    (property "Sheetname" "")
+    (attr smd)
+    (fp_text reference "R1" (at 0 -1.65) (layer "F.SilkS")
+        (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 4187dce2-ab95-4542-b22f-d2c4c6a0e800)
+    )
+    (fp_text value "1k" (at 0 1.65) (layer "F.Fab")
+        (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 3054cf00-6994-4f2f-8c7e-95f3598cce49)
+    )
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+        (effects (font (size 0.5 0.5) (thickness 0.08)))
+      (tstamp 3d2b4103-ed94-4f09-bf82-35cdbc0f002b)
+    )
+    (fp_line (start -0.227064 -0.735) (end 0.227064 -0.735)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp ddbbaa6c-cc80-42c2-ad88-5a0b436ab24f))
+    (fp_line (start -0.227064 0.735) (end 0.227064 0.735)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp e36fb3f1-9cff-42b0-8bc3-8e6534fc33f0))
+    (fp_line (start -1.85 -0.95) (end 1.85 -0.95)
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 703b8af4-207d-4df1-924e-0863a189b818))
+    (fp_line (start -1.85 0.95) (end -1.85 -0.95)
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 2e224135-d2be-4227-8fae-7850544536f1))
+    (fp_line (start 1.85 -0.95) (end 1.85 0.95)
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 3081038d-3cbc-4b99-bd20-9b74fe8c0f33))
+    (fp_line (start 1.85 0.95) (end -1.85 0.95)
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 9ed0e2d2-8c09-4997-aa51-0a1225e004fc))
+    (fp_line (start -1 -0.625) (end 1 -0.625)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 379eca4f-e766-4b39-bffc-45a4b9bbccc7))
+    (fp_line (start -1 0.625) (end -1 -0.625)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp c3ee5f25-25eb-4f38-b54a-614f46c0df33))
+    (fp_line (start 1 -0.625) (end 1 0.625)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp ab1c4ae8-136f-43eb-b7e0-48fbce52eb41))
+    (fp_line (start 1 0.625) (end -1 0.625)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 7749aabb-3bc6-48e3-b2a1-ba759e0e7ee2))
+    (pad "1" smd roundrect (at -1 0 180) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2083333333)
+      (pintype "passive") (tstamp 67c45954-0743-4093-803a-f0052d7e543f))
+    (pad "2" smd roundrect (at 1 0 180) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2083333333)
+      (pintype "passive") (tstamp 24e0c373-99db-4624-ae36-c6023aac67f5))
+    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (layer "F.Cu")
+    (tstamp e65040e9-a518-40be-b08c-2a6c98789c34)
+    (at 113.01 70.034128 90)
+    (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+    (tags "resistor handsolder")
+    (property "Sheetfile" "exercise 4-2.kicad_sch")
+    (property "Sheetname" "")
+    (attr smd)
+    (fp_text reference "R3" (at 0 -1.65 90) (layer "F.SilkS")
+        (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 95668dfe-5ed9-4aa4-9372-038a0a0ef782)
+    )
+    (fp_text value "1k" (at 0 1.65 90) (layer "F.Fab")
+        (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp bd061aef-bd36-49e8-ad86-45060d543680)
+    )
+    (fp_text user "${REFERENCE}" (at 0 0 90) (layer "F.Fab")
+        (effects (font (size 0.5 0.5) (thickness 0.08)))
+      (tstamp 5eec864f-0140-4f8c-aaeb-4e4546f7663d)
+    )
+    (fp_line (start -0.227064 -0.735) (end 0.227064 -0.735)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp ef9de094-c9df-4e4e-aece-0ac6926ad909))
+    (fp_line (start -0.227064 0.735) (end 0.227064 0.735)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp bdc16f4d-02f9-48ee-b1e4-82f1ec6cc286))
+    (fp_line (start -1.85 -0.95) (end 1.85 -0.95)
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 87125699-b29c-4714-9b3c-e59c0c9e932c))
+    (fp_line (start -1.85 0.95) (end -1.85 -0.95)
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 82f186d0-329a-4994-8890-bd0635566f37))
+    (fp_line (start 1.85 -0.95) (end 1.85 0.95)
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp b20ee39a-ac82-4309-a67e-4e5933a54105))
+    (fp_line (start 1.85 0.95) (end -1.85 0.95)
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp f3453e5c-9fcb-4e62-8e1f-83a11229da53))
+    (fp_line (start -1 -0.625) (end 1 -0.625)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp e86168e8-9a0b-4e48-ac33-04dce73a4dde))
+    (fp_line (start -1 0.625) (end -1 -0.625)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp b3214e71-22ab-48bb-bdee-5b41a30fa706))
+    (fp_line (start 1 -0.625) (end 1 0.625)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 1284a733-54c6-4e0a-8446-7b427bcd3f73))
+    (fp_line (start 1 0.625) (end -1 0.625)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp b2dfe5ed-73bc-4053-8fe5-cf595a545233))
+    (pad "1" smd roundrect (at -1 0 90) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2083333333)
+      (pintype "passive") (tstamp 1e681ab6-4f4b-4329-994f-fba60370f89c))
+    (pad "2" smd roundrect (at 1 0 90) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2083333333)
+      (pintype "passive") (tstamp abc1d042-2374-4da1-b2fe-e86a285caf2a))
+    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (footprint "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" (layer "F.Cu")
+    (tstamp f53b6616-1082-48b7-9c19-3dc0f3ddd116)
+    (at 112.915 76.2 -90)
+    (descr "LED SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
+    (tags "LED handsolder")
+    (property "Sheetfile" "exercise 4-2.kicad_sch")
+    (property "Sheetname" "")
+    (attr smd)
+    (fp_text reference "D1" (at 0 -1.82 90) (layer "F.SilkS")
+        (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 5785720f-d79f-4d30-bac2-22f0f5a4fc2e)
+    )
+    (fp_text value "LED" (at 0 1.82 90) (layer "F.Fab")
+        (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp b55e59fa-941c-4af8-90ee-324460be213e)
+    )
+    (fp_text user "${REFERENCE}" (at 0 0 90) (layer "F.Fab")
+        (effects (font (size 0.8 0.8) (thickness 0.12)))
+      (tstamp 9d779413-ad42-47c6-b297-782d2d5b2fc7)
+    )
+    (fp_line (start -2.46 -1.135) (end -2.46 1.135)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 36588df6-e85b-4fe0-a60c-646162356a51))
+    (fp_line (start -2.46 1.135) (end 1.6 1.135)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 099b725b-0540-4f5d-93f5-c24ff9fda741))
+    (fp_line (start 1.6 -1.135) (end -2.46 -1.135)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 5f6cb17e-8f1f-4744-b982-8634ef279578))
+    (fp_line (start -2.45 -1.12) (end 2.45 -1.12)
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp efafaa42-3a1f-4475-9803-19bf615caafb))
+    (fp_line (start -2.45 1.12) (end -2.45 -1.12)
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp c674fad4-d511-4734-a701-42fa15a0e177))
+    (fp_line (start 2.45 -1.12) (end 2.45 1.12)
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp f59e2cc2-8087-4352-b972-255fca93ad1c))
+    (fp_line (start 2.45 1.12) (end -2.45 1.12)
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 6e2abd7f-8578-4d8d-9aa9-e471705bb39a))
+    (fp_line (start -1.6 -0.4) (end -1.6 0.8)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 64b3081d-8533-4693-8526-02f238bcce7c))
+    (fp_line (start -1.6 0.8) (end 1.6 0.8)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 62bdcf21-26ca-45fe-a904-e8bb6805159b))
+    (fp_line (start -1.2 -0.8) (end -1.6 -0.4)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 95b9d979-45b1-4aed-a2a5-de99351cd249))
+    (fp_line (start 1.6 -0.8) (end -1.2 -0.8)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp e142cc75-4749-4e61-ad48-36bae8a45753))
+    (fp_line (start 1.6 0.8) (end 1.6 -0.8)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 2acaf356-73e7-4a2b-9501-2d2e08a56896))
+    (pad "1" smd roundrect (at -1.4875 0 270) (size 1.425 1.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1754392982)
+      (pinfunction "K") (pintype "passive") (tstamp 6a4f5fae-e3d7-4781-8bed-231d6f016c80))
+    (pad "2" smd roundrect (at 1.4875 0 270) (size 1.425 1.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1754392982)
+      (pinfunction "A") (pintype "passive") (tstamp bd051e46-e3a0-46c6-9388-a3aacae6a8da))
+    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_1206_3216Metric.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (footprint "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" (layer "F.Cu")
+    (tstamp f9ead847-7cd4-4e7e-9f7d-4dbf6d73bf08)
+    (at 120.485 64.96 180)
+    (descr "LED SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
+    (tags "LED handsolder")
+    (property "Sheetfile" "exercise 4-2.kicad_sch")
+    (property "Sheetname" "")
+    (attr smd)
+    (fp_text reference "D2" (at 0 -1.82) (layer "F.SilkS")
+        (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 329beb8a-6478-42fc-9bc9-90c38fd2810f)
+    )
+    (fp_text value "LED" (at 0 1.82) (layer "F.Fab")
+        (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 4df6115e-b77a-4190-b0d0-ddd454138d1d)
+    )
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+        (effects (font (size 0.8 0.8) (thickness 0.12)))
+      (tstamp 75d3552b-12fa-42c2-807d-59f781a6a7dc)
+    )
+    (fp_line (start -2.46 -1.135) (end -2.46 1.135)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 09735efe-1cd4-4144-ba11-12d4e7b3c81c))
+    (fp_line (start -2.46 1.135) (end 1.6 1.135)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 24c892ea-a6fb-4b96-ab58-5ca311203563))
+    (fp_line (start 1.6 -1.135) (end -2.46 -1.135)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 11cb5aab-0938-40fb-90bc-9935404cd2fe))
+    (fp_line (start -2.45 -1.12) (end 2.45 -1.12)
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp ba968139-065b-42a5-aec6-0bb36bc5f6d2))
+    (fp_line (start -2.45 1.12) (end -2.45 -1.12)
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp e87e9c87-7bab-4554-b15a-aad11e75c175))
+    (fp_line (start 2.45 -1.12) (end 2.45 1.12)
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp e2ad2e50-181c-4a03-b960-b32e71adade4))
+    (fp_line (start 2.45 1.12) (end -2.45 1.12)
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 309adf6d-84a4-45a9-8e43-acec96ab1d84))
+    (fp_line (start -1.6 -0.4) (end -1.6 0.8)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 0e2fa302-85eb-4376-8b03-1f251a091dae))
+    (fp_line (start -1.6 0.8) (end 1.6 0.8)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 94216e66-5308-4c03-a2bf-bd07991b3c35))
+    (fp_line (start -1.2 -0.8) (end -1.6 -0.4)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 8780acf7-d4a0-489d-b434-928c8a396715))
+    (fp_line (start 1.6 -0.8) (end -1.2 -0.8)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 86d32734-a0fa-4533-aaef-44158108b754))
+    (fp_line (start 1.6 0.8) (end 1.6 -0.8)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp b0fd86db-1457-4a31-9f58-b465b7b83aba))
+    (pad "1" smd roundrect (at -1.4875 0 180) (size 1.425 1.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1754392982)
+      (pinfunction "K") (pintype "passive") (tstamp 29e2b441-5ec1-441d-bedc-9b971993cbdd))
+    (pad "2" smd roundrect (at 1.4875 0 180) (size 1.425 1.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1754392982)
+      (pinfunction "A") (pintype "passive") (tstamp b7c4693e-0de9-425f-84b8-baaf9ff9300e))
+    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_1206_3216Metric.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (footprint "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" (layer "F.Cu")
+    (tstamp fbeab7c9-6ea2-4473-9bdc-1c9ccff4195b)
+    (at 142.24 76.2 180)
+    (descr "simple 2-pin terminal block, pitch 5.08mm, revamped version of bornier2")
+    (tags "terminal block bornier2")
+    (property "Sheetfile" "exercise 4-2.kicad_sch")
+    (property "Sheetname" "")
+    (attr through_hole)
+    (fp_text reference "J1" (at 2.54 -5.08) (layer "F.SilkS")
+        (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp ba20426b-2aba-44a8-b4d1-4be9b152e254)
+    )
+    (fp_text value "Conn_01x02_Male" (at 2.54 5.08) (layer "F.Fab")
+        (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp e4773647-f21d-4acf-a203-d4af0212266e)
+    )
+    (fp_text user "${REFERENCE}" (at 2.54 0) (layer "F.Fab")
+        (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 3dd5a158-0e07-4202-b1e2-87e7a716ca54)
+    )
+    (fp_line (start -2.54 -3.81) (end -2.54 3.81)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp c66ed7fc-7baa-40fd-83f6-770dffed905b))
+    (fp_line (start -2.54 3.81) (end 7.62 3.81)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 9ddad27e-af98-408b-b961-5c16eca5d41e))
+    (fp_line (start 7.62 -3.81) (end -2.54 -3.81)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp bbc14f49-172a-4edf-b028-517bf6b312cf))
+    (fp_line (start 7.62 2.54) (end -2.54 2.54)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp d3975889-5438-4d1f-aa07-52577f6fc821))
+    (fp_line (start 7.62 3.81) (end 7.62 -3.81)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 4a7d0197-c06b-4050-801f-2bacc58d084e))
+    (fp_line (start -2.71 -4) (end -2.71 4)
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 8e1038e8-232f-4746-af37-b26d8ba32a0a))
+    (fp_line (start -2.71 -4) (end 7.79 -4)
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 9ba76835-83ad-4710-addb-68e371672b5c))
+    (fp_line (start 7.79 4) (end -2.71 4)
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp eb96a017-057b-4d6e-a26e-79ffb6e03f57))
+    (fp_line (start 7.79 4) (end 7.79 -4)
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 8242b36e-a29c-4328-82c9-0972f5f77dca))
+    (fp_line (start -2.46 -3.75) (end -2.46 3.75)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp fac5f593-9668-4412-846d-fc0b29f758cb))
+    (fp_line (start -2.46 3.75) (end 7.54 3.75)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp c9baac8f-ed2c-43f9-97af-6a743270459c))
+    (fp_line (start -2.41 2.55) (end 7.49 2.55)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp c3210969-6b70-4122-bd5a-32dc19e5c1e9))
+    (fp_line (start 7.54 -3.75) (end -2.46 -3.75)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp a6a69431-ad9d-44ee-a4e1-aa071983c50a))
+    (fp_line (start 7.54 3.75) (end 7.54 -3.75)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp f177d964-7af4-4eda-8a8c-524c6fa97f0e))
+    (pad "1" thru_hole rect (at 0 0 180) (size 3 3) (drill 1.52) (layers "*.Cu" "*.Mask")
+      (pinfunction "Pin_1") (pintype "passive") (tstamp 9b1b54b7-b9f4-4387-b132-8bb36cd673e3))
+    (pad "2" thru_hole circle (at 5.08 0 180) (size 3 3) (drill 1.52) (layers "*.Cu" "*.Mask")
+      (pinfunction "Pin_2") (pintype "passive") (tstamp 8d6761ed-99ff-4eae-b28e-0784ab478558))
+    (model "${KICAD6_3DMODEL_DIR}/TerminalBlock.3dshapes/TerminalBlock_bornier-2_P5.08mm.wrl"
+      (offset (xyz 2.539999962 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (image (at 139.7 66.04) (layer "F.SilkS") (scale 0.242069)
+    (data
+      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
+    )
+  )
+  (gr_text "Izzy Nurdin,\nMussie Tsegay" (at 139.065 83.82) (layer "F.SilkS") (tstamp 1734e2fb-0ece-4c29-9daa-5c15ec492ee3)
+    (effects (font (size 0.5 0.5) (thickness 0.125) bold) (justify left bottom))
+  )
+
+  (segment (start 126.0175 75.565) (end 129.667 75.565) (width 0.25) (layer "F.Cu") (net 0) (tstamp 04e4f0ec-5cf2-47eb-be7a-82ff178eb601))
+  (segment (start 113.3325 78.105) (end 115.443 78.105) (width 0.25) (layer "F.Cu") (net 0) (tstamp 0900b7e2-ac76-4207-8b27-c8aa2df6fb46))
+  (segment (start 135.636 82.804) (end 135.62 82.82) (width 0.25) (layer "F.Cu") (net 0) (tstamp 11a155b0-ea1e-4a97-b8c8-f3805b4c3a2e))
+  (segment (start 126.0175 78.105) (end 128.905 78.105) (width 0.25) (layer "F.Cu") (net 0) (tstamp 1340909e-967a-4645-af93-ded8e32237d4))
+  (segment (start 128.016 74.422) (end 127.889 74.295) (width 0.25) (layer "F.Cu") (net 0) (tstamp 159c9b4f-465a-4eb6-8fdd-c16f9955fab6))
+  (segment (start 137.16 76.2) (end 133.985 73.025) (width 0.25) (layer "F.Cu") (net 0) (tstamp 25e80b28-d2c7-4a3f-bb62-07ce04daaae1))
+  (segment (start 127.61624 68.58) (end 124.17624 65.14) (width 0.25) (layer "F.Cu") (net 0) (tstamp 291a3706-b289-4849-a01b-de325f56e2de))
+  (segment (start 126.0175 72.4235) (end 125.984 72.39) (width 0.25) (layer "F.Cu") (net 0) (tstamp 310e352e-bd78-48ea-bbff-e188e2673c30))
+  (segment (start 127 71.374) (end 127 72.898) (width 0.25) (layer "F.Cu") (net 0) (tstamp 39a34381-aa56-4684-a80d-49d102d2d02b))
+  (segment (start 112.915 71.129128) (end 112.915 74.7125) (width 0.25) (layer "F.Cu") (net 0) (tstamp 43886979-d703-4650-8aaa-d07c7f31c09b))
+  (segment (start 126.0175 74.295) (end 126.0175 72.4235) (width 0.25) (layer "F.Cu") (net 0) (tstamp 460391bb-b543-4edd-9051-c71afb213390))
+  (segment (start 126.25124 65.14) (end 124.87124 63.76) (width 0.25) (layer "F.Cu") (net 0) (tstamp 4be9732b-922d-4df7-b991-be299b08469d))
+  (segment (start 115.443 78.105) (end 121.0675 78.105) (width 0.25) (layer "F.Cu") (net 0) (tstamp 51df104f-bd55-4510-b5cc-9cd1c0da087e))
+  (segment (start 119.126 75.438) (end 119.253 75.565) (width 0.25) (layer "F.Cu") (net 0) (tstamp 5218a6fc-8757-49e3-a830-b1c1cfd557a3))
+  (segment (start 120.935 64.096828) (end 120.935 74.1625) (width 0.25) (layer "F.Cu") (net 0) (tstamp 53a3b280-13c2-448d-8382-57cbca5818fe))
+  (segment (start 121.9725 64.96) (end 123.99624 64.96) (width 0.25) (layer "F.Cu") (net 0) (tstamp 55d1dd6b-b897-4a47-be62-e8686ea5305f))
+  (segment (start 128.143 76.835) (end 128.27 76.708) (width 0.25) (layer "F.Cu") (net 0) (tstamp 566e500e-50e8-4272-90d8-7331adfd4479))
+  (segment (start 113.01 67.584) (end 113.01 69.034128) (width 0.25) (layer "F.Cu") (net 0) (tstamp 571d8247-3a95-4aba-ace4-9df1865942fa))
+  (segment (start 118.9125 65.045) (end 114.618808 65.045) (width 0.25) (layer "F.Cu") (net 0) (tstamp 5b96e326-a717-4b87-879f-342e1c9db111))
+  (segment (start 123.99624 64.96) (end 124.17624 65.14) (width 0.25) (layer "F.Cu") (net 0) (tstamp 642d8700-35bc-4d86-8054-e0dea4515855))
+  (segment (start 112.915 77.6875) (end 113.3325 78.105) (width 0.25) (layer "F.Cu") (net 0) (tstamp 65fbbb38-c881-4e90-a0fd-0884a6de7230))
+  (segment (start 116.831192 73.261192) (end 116.949192 73.261192) (width 0.25) (layer "F.Cu") (net 0) (tstamp 68d44815-0f83-44e1-8670-3154b3ed2aa4))
+  (segment (start 113.01 65.436192) (end 113.01 67.584) (width 0.25) (layer "F.Cu") (net 0) (tstamp 69c0b337-866f-4e02-9246-ee22a4248ba9))
+  (segment (start 119.253 75.565) (end 121.0675 75.565) (width 0.25) (layer "F.Cu") (net 0) (tstamp 71893106-0364-49f6-9d13-c4330393af7d))
+  (segment (start 133.985 73.025) (end 129.54 68.58) (width 0.25) (layer "F.Cu") (net 0) (tstamp 736a3781-a975-4e4d-844b-e22fe8863433))
+  (segment (start 124.714 69.088) (end 127 71.374) (width 0.25) (layer "F.Cu") (net 0) (tstamp 766e4161-be27-4130-945e-7b54dcd64e27))
+  (segment (start 120.935 74.1625) (end 121.0675 74.295) (width 0.25) (layer "F.Cu") (net 0) (tstamp 77ce657c-b6c4-4a49-9fe0-356ded14f0cd))
+  (segment (start 126.0175 74.295) (end 127.889 74.295) (width 0.25) (layer "F.Cu") (net 0) (tstamp 8285514c-0d31-46ae-941b-df09803c53da))
+  (segment (start 126.0175 76.835) (end 128.143 76.835) (width 0.25) (layer "F.Cu") (net 0) (tstamp 8439ac00-55c4-49ff-bc36-35fc183ebf1b))
+  (segment (start 112.618808 65.045) (end 113.01 65.436192) (width 0.25) (layer "F.Cu") (net 0) (tstamp 902a8040-b5f0-49f2-a5a9-4df81fb8649a))
+  (segment (start 133.62 83.82) (end 130.302 83.82) (width 0.25) (layer "F.Cu") (net 0) (tstamp 99e0bf71-5c44-4017-808f-504199566ec2))
+  (segment (start 118.999 76.835) (end 121.0675 76.835) (width 0.25) (layer "F.Cu") (net 0) (tstamp 9dd8f6d0-4b59-4efd-8ee3-696c0652fa87))
+  (segment (start 142.24 76.2) (end 135.636 82.804) (width 0.25) (layer "F.Cu") (net 0) (tstamp a3343ce8-89d1-42cb-932f-545ad864b4cd))
+  (segment (start 116.831192 75.261192) (end 117.425192 75.261192) (width 0.25) (layer "F.Cu") (net 0) (tstamp a4cb07a9-25b5-4935-b57e-60359e7105ff))
+  (segment (start 113.01 71.034128) (end 112.915 71.129128) (width 0.25) (layer "F.Cu") (net 0) (tstamp b31f93f9-0c5b-407f-a4e2-119216a35bb9))
+  (segment (start 124.87124 63.76) (end 121.271828 63.76) (width 0.25) (layer "F.Cu") (net 0) (tstamp c5f116fb-5888-443d-a225-ebab4a1351a8))
+  (segment (start 129.54 71.12) (end 129.54 72.644) (width 0.25) (layer "F.Cu") (net 0) (tstamp db46fe6a-03af-4ae1-a1f9-149af0324895))
+  (segment (start 117.425192 75.261192) (end 118.999 76.835) (width 0.25) (layer "F.Cu") (net 0) (tstamp dc4c1d89-3295-4f8b-9229-37309dce83b1))
+  (segment (start 118.9975 64.96) (end 118.9125 65.045) (width 0.25) (layer "F.Cu") (net 0) (tstamp e0f7c769-96cc-417c-b0a7-f048620ef80e))
+  (segment (start 116.949192 73.261192) (end 119.126 75.438) (width 0.25) (layer "F.Cu") (net 0) (tstamp ec1e4e79-9c3b-4faf-b44a-7c5e32756c54))
+  (segment (start 121.271828 63.76) (end 120.935 64.096828) (width 0.25) (layer "F.Cu") (net 0) (tstamp f0a8b2f8-47d9-4799-9b1a-af90af96993e))
+  (segment (start 129.54 68.58) (end 127.61624 68.58) (width 0.25) (layer "F.Cu") (net 0) (tstamp f1b27042-15cf-4727-8b94-16b4c279fa63))
+  (segment (start 135.62 82.82) (end 135.62 83.82) (width 0.25) (layer "F.Cu") (net 0) (tstamp fe48c61e-c12a-4ad5-8df0-b94e7583a64b))
+  (via (at 125.984 72.39) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 0) (tstamp 145f4a51-8c94-4bca-bb95-0aec3fb31dc5))
+  (via (at 130.302 83.82) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 0) (tstamp 26511789-5d40-4fab-ba38-d0f5b5f7abde))
+  (via (at 127 72.898) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 0) (tstamp 48e9c385-4219-4e2f-932a-495e844933b0))
+  (via (at 113.01 67.584) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 0) (tstamp 497538ed-e861-4490-a427-a433defd0382))
+  (via (at 118.999 76.835) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 0) (tstamp 4a2f314b-69d0-4fb6-87fb-834de64151b6))
+  (via (at 129.54 72.644) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 0) (tstamp 4e6b05b9-84fe-4b56-8982-1e356cb1a9f5))
+  (via (at 128.016 74.422) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 0) (tstamp 54d8cb37-c634-4fbe-b3a8-9c63499dd28a))
+  (via (at 128.27 76.708) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 0) (tstamp 7ee9bb8e-8b0f-4944-bb46-fbbc27194690))
+  (via (at 119.126 75.438) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 0) (tstamp 87cf3fb9-43fd-48f7-9959-6d1f31745ca9))
+  (via (at 124.714 69.088) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 0) (tstamp d09061f6-754b-48eb-9ac8-0734a07ac167))
+  (via (at 135.636 82.804) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 0) (tstamp d7a4fe11-b161-4eaf-81a7-808cd63229fa))
+  (via (at 129.667 75.565) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 0) (tstamp dcbe564e-1cf4-4276-b7a8-aa787c7b2e7c))
+  (via (at 128.905 78.105) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 0) (tstamp e3f4f119-3c3e-4705-aa6d-e30c32a4ddd6))
+  (via (at 133.985 73.025) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 0) (tstamp ed6c7226-bd6c-49c9-9a26-335e2f8b875c))
+  (via (at 115.443 78.105) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 0) (tstamp f3c1855a-1a74-4cf6-b4e0-4f588b1c3c02))
+  (segment (start 125.984 68.326) (end 115.062 68.326) (width 0.25) (layer "B.Cu") (net 0) (tstamp 07ec5cc5-a797-4776-be16-9d32fa68edaa))
+  (segment (start 119.126 75.438) (end 119.126 69.088) (width 0.25) (layer "B.Cu") (net 0) (tstamp 0d22e528-4a58-41be-be46-65c11a32c731))
+  (segment (start 118.872 76.962) (end 118.872 84.074) (width 0.25) (layer "B.Cu") (net 0) (tstamp 15ecd3c1-8765-476b-b1f0-5a945e6fb6d5))
+  (segment (start 130.048 84.074) (end 130.302 83.82) (width 0.25) (layer "B.Cu") (net 0) (tstamp 1e5576b3-be36-43ab-82ef-938d0602edbc))
+  (segment (start 126.512 67.584) (end 127.254 68.326) (width 0.25) (layer "B.Cu") (net 0) (tstamp 23acc80b-0087-4f4c-bf2a-4e1a676778a6))
+  (segment (start 129.032 73.406) (end 129.286 73.406) (width 0.25) (layer "B.Cu") (net 0) (tstamp 3e2f0b12-d475-427f-b3a6-fe36fb8da1fa))
+  (segment (start 127.508 81.026) (end 129.286 82.804) (width 0.25) (layer "B.Cu") (net 0) (tstamp 4ec5cbc9-2996-43af-a112-b5a56c2ab3b4))
+  (segment (start 128.361396 73.751396) (end 127.254 72.644) (width 0.25) (layer "B.Cu") (net 0) (tstamp 4f2bb944-3848-4670-bab3-69c7316fef3d))
+  (segment (start 115.062 68.326) (end 115.062 77.724) (width 0.25) (layer "B.Cu") (net 0) (tstamp 5b66f019-1d32-4577-ae28-698788af58b0))
+  (segment (start 125.984 72.39) (end 125.984 68.326) (width 0.25) (layer "B.Cu") (net 0) (tstamp 5c6240ca-065d-4a93-affb-a1c058fcce27))
+  (segment (start 129.286 82.804) (end 135.636 82.804) (width 0.25) (layer "B.Cu") (net 0) (tstamp 5d99ff11-e2fa-4c5d-b649-32abd093e16a))
+  (segment (start 127.254 72.644) (end 127 72.898) (width 0.25) (layer "B.Cu") (net 0) (tstamp 60bbca6b-cea8-4a55-97c3-13be02d86972))
+  (segment (start 130.392 75.865305) (end 129.549305 76.708) (width 0.25) (layer "B.Cu") (net 0) (tstamp 62d36f14-95b0-4c3b-a38a-229afd75e6cd))
+  (segment (start 127.508 74.93) (end 127.508 81.026) (width 0.25) (layer "B.Cu") (net 0) (tstamp 6b9a1e8b-02be-4f09-a615-fe01da9dc9e0))
+  (segment (start 115.062 77.724) (end 115.443 78.105) (width 0.25) (layer "B.Cu") (net 0) (tstamp 86db370e-f4c7-442e-8b7e-0797567d37f4))
+  (segment (start 118.999 76.835) (end 118.872 76.962) (width 0.25) (layer "B.Cu") (net 0) (tstamp 9099f092-c9a5-4d37-a5c4-1b2f6911e430))
+  (segment (start 129.54 72.644) (end 130.392 73.496) (width 0.25) (layer "B.Cu") (net 0) (tstamp a184e293-9325-4d53-aac3-fb190895f34e))
+  (segment (start 127.254 71.628) (end 129.032 73.406) (width 0.25) (layer "B.Cu") (net 0) (tstamp a8a91507-e8aa-4656-8eeb-d62283c9e48a))
+  (segment (start 128.016 74.422) (end 127.508 74.93) (width 0.25) (layer "B.Cu") (net 0) (tstamp aca83bef-a1f7-4f1a-bd4b-85ade87fa043))
+  (segment (start 133.985 73.025) (end 128.905 78.105) (width 0.25) (layer "B.Cu") (net 0) (tstamp add08f27-97d0-4f65-8f8c-3ad70ae88444))
+  (segment (start 129.549305 76.708) (end 128.27 76.708) (width 0.25) (layer "B.Cu") (net 0) (tstamp ae52a8df-de15-4b82-8f0b-6966b6f1c2aa))
+  (segment (start 113.01 67.584) (end 126.512 67.584) (width 0.25) (layer "B.Cu") (net 0) (tstamp b0c41584-4adc-4b0c-ab4e-03cced19083a))
+  (segment (start 128.741 73.751396) (end 128.361396 73.751396) (width 0.25) (layer "B.Cu") (net 0) (tstamp cd1fc334-62c5-4c68-90b3-6f7465430b09))
+  (segment (start 119.126 69.088) (end 124.714 69.088) (width 0.25) (layer "B.Cu") (net 0) (tstamp cddcd555-c1e7-449f-843b-d3ea4ec4b5ba))
+  (segment (start 130.392 73.496) (end 130.392 75.865305) (width 0.25) (layer "B.Cu") (net 0) (tstamp d53bcc2a-bd3f-4e5b-b8db-8b7b200a22e3))
+  (segment (start 129.286 73.406) (end 129.667 73.787) (width 0.25) (layer "B.Cu") (net 0) (tstamp d63dd9cb-1129-4f94-8840-e1f82a9915c4))
+  (segment (start 129.667 73.787) (end 129.667 75.565) (width 0.25) (layer "B.Cu") (net 0) (tstamp dad04bc1-3421-4676-8a52-411577bfdcfb))
+  (segment (start 118.872 84.074) (end 130.048 84.074) (width 0.25) (layer "B.Cu") (net 0) (tstamp dfe2becd-f07c-4b59-b576-bb4e2f907ad9))
+  (segment (start 128.741 76.237) (end 128.741 73.751396) (width 0.25) (layer "B.Cu") (net 0) (tstamp edd60c6c-a311-41e5-bba1-692c31aa7a99))
+  (segment (start 128.27 76.708) (end 128.741 76.237) (width 0.25) (layer "B.Cu") (net 0) (tstamp f6b817b1-324b-47b8-a719-bb542d15ffb5))
+  (segment (start 127.254 68.326) (end 127.254 71.628) (width 0.25) (layer "B.Cu") (net 0) (tstamp f773358e-4cd7-4bcf-a5e3-b067c3101897))
+
+)
